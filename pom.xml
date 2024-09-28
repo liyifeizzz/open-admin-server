@@ -16,6 +16,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <spring-boot.version>2.7.5</spring-boot.version>
+        <hutool.version>5.8.32</hutool.version>
     </properties>
 
     <modules>
@@ -46,6 +47,11 @@
                 <groupId>com.open.admin</groupId>
                 <artifactId>open-admin-system</artifactId>
                 <version>${open-admin-version}</version>
+            </dependency>
+            <dependency>
+                <groupId>cn.hutool</groupId>
+                <artifactId>hutool-all</artifactId>
+                <version>${hutool.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
